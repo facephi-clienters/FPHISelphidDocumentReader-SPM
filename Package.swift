@@ -26,6 +26,8 @@ let package = Package(
                 "FPHILicenseManager-SPM"
             ]
         ),
-        .binaryTarget(name: "selphidDocumentReader", path: "selphidDocumentReader.xcframework"),
+        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/selphidDocumentReader/2.1.0/selphidDocumentReader.zip",
+            checksum: "0d0fcc0c7afa27a2e51ee1e8bdef17d79a9c584a28b90bdb6b6043c3ec9be362") 
+        
     ]
 )
