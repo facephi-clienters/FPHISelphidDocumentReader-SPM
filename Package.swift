@@ -14,7 +14,7 @@ let package = Package(
      dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "git@github.com:facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.6")),
+        .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.6")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -26,8 +26,8 @@ let package = Package(
                 "FPHILicenseManager-SPM"
             ]
         ),
-        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHISelphidDocumentReader/2.1.0/selphidDocumentReader.zip",
-            checksum: "0d0fcc0c7afa27a2e51ee1e8bdef17d79a9c584a28b90bdb6b6043c3ec9be362") 
+        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/selphidDocumentReader/2.1.2/selphidDocumentReader.zip",
+            checksum: "c712db9c7a5a8d09c2669aae6001dad876913b9adb9c3daa44742c950dc7a77b") 
         
     ]
 )
