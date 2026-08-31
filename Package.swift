@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "FPHISelphidDocumentReader-SPM",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -27,8 +30,8 @@ let package = Package(
             ]
         ),
         
-        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHISelphidDocumentReader/3.1.2/selphidDocumentReader.zip",
-            checksum: "7688af6575682ac159dda5e3f0611b88c293a4c6c3e46d8d257ac466f3bbe78b") 
+        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHISelphidDocumentReader/3.3.10/selphidDocumentReader.zip",
+            checksum: "a4d9b5844b1c05ade6f55bc91f227298abd43f6ccd387ba6f739d1d30840230d") 
         
     ]
 )
