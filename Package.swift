@@ -30,8 +30,8 @@ let package = Package(
             ]
         ),
         
-        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHISelphidDocumentReader/3.3.10/selphidDocumentReader.zip",
-            checksum: "a4d9b5844b1c05ade6f55bc91f227298abd43f6ccd387ba6f739d1d30840230d") 
+        .binaryTarget(name: "selphidDocumentReader", url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/DocumentReader/FPHISelphidDocumentReader/3.3.13/selphidDocumentReader.zip",
+            checksum: "a4cbbc711822f681d10a3ae4db48baddcbb177777d492acf806ff48370ef75d8") 
         
     ]
 )
